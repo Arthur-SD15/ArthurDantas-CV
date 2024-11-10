@@ -1,0 +1,158 @@
+\documentclass[letterpaper,11pt]{article}
+
+% Pacotes necessários
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english,portuguese]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+% Configurações de formato da página
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Ajuste das margens
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same} % Links sem formatação especial
+\raggedbottom % Não força as páginas a terem altura igual
+\raggedright % Alinha o texto à esquerda
+\setlength{\tabcolsep}{0in} % Remove o espaço entre colunas de tabelas
+
+% Formatação das seções
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Garantir que o PDF seja legível por máquinas
+\pdfgentounicode=1
+
+% Comandos personalizados
+% Comando para criar itens de resumo
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+% Comando para criar subtítulos de seção de resumo
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+% Comando para criar subtítulos de subseções de resumo
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+% Comando para a formatação da educação
+\newcommand{\resumeEducationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+% Comando para criar um projeto de resumo
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+% Comando para criar uma organização de resumo
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-7pt}
+}
+
+% Comando para criar subitens dentro do resumo
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+% Ajuste no marcador de listas
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+% Início e fim das listas de subtítulos e itens
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+
+
+%----------- CABEÇALHO -----------
+\begin{center}
+    {\Huge \textbf{Arthur Silva Dantas}} \\[0.5em] % Nome em destaque
+    \small % Texto menor para os detalhes de contato
+    \faEnvelope \hspace{.5pt} \href{mailto:contato.arthurdantas.dev@gmail.com}{contato.arthurdantas.dev@gmail.com} \hspace{0.8em}
+    \textbar \hspace{0.5em}
+    \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/arthur-sd15/}{Arthur Dantas} \hspace{0.8em}
+    \textbar \hspace{0.5em}
+    \faGithub \hspace{.5pt} \href{https://github.com/Arthur-SD15}{Arthur-SD15} \hspace{0.8em}
+    \textbar \hspace{0.5em}
+    \faGlobe \hspace{.5pt} \href{http://arthurdantas.com.br/}{arthurdantas.com.br} \\[0.5em] % Espaçamento entre a linha de contatos e a localização
+    \faMapMarker \hspace{.5pt} Campo Grande, MS, Brasil % Localização em nova linha
+\end{center}
+
+
+
+%----------- RESUMO -----------
+\section{Resumo}
+\begin{tabular}{p{0.97\textwidth}}
+    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\medskip
+
+    Interesse: \sotag{Lorem}; \sotag{Lorem}; \sotag{Lorem}; \sotag{Lorem};
+\end{tabular}
+
+
+
+%----------- ENSINO -----------
+\section{Formação Acadêmica}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+  
+    \resumeEducationHeading
+      {Universidade Federal de Mato Grosso do Sul
+      % \normalfont{(Admission rate: 0.09\%)}
+      }{Campo Grande - Mato Grosso do Sul, Brasil}
+      {Bacharelado em Engenharia de Software;   \textbf}{Mar 2024 \textbf{--} Dec 2028 (Previsão de Término)}
+    
+    \resumeEducationHeading
+        {Instituto Federal de Mato Grosso do Sul
+      % \normalfont{(Admission rate: 0.09\%)}
+      }{Nova Andradina - Mato Grosso do Sul, Brasil}
+      {Ensino Médio Profissionalizante em Técnico em Informática;   \textbf}{Fev 2021 \textbf{--} Dec 2023}
+ 
+  \resumeSubHeadingListEnd
+
+\end{document}
