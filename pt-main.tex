@@ -1,0 +1,199 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english,portuguese]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same} 
+\raggedbottom 
+\justifying 
+\setlength{\tabcolsep}{0in} 
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \parbox[t]{0.7\textwidth}{\textbf{#1}} & \textit{\small #4}\\
+      \textit{\small#3} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.17\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeEducationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+
+
+%----------- CABEÇALHO -----------
+\begin{center}
+    {\Huge \textbf{Arthur Silva Dantas}} \\[0.5em]
+    \small
+    \faEnvelope \hspace{.5pt} \href{mailto:contato.arthurdantas.dev@gmail.com}{contato.arthurdantas.dev@gmail.com} \hspace{0.8em}
+    \textbar \hspace{0.5em}
+    \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/arthur-sd15/}{Arthur Dantas} \hspace{0.8em}
+    \textbar \hspace{0.5em}
+    \faGithub \hspace{.5pt} \href{https://github.com/Arthur-SD15}{Arthur-SD15} \hspace{0.8em}
+    \textbar \hspace{0.5em}
+    \faGlobe \hspace{.5pt} \href{http://arthurdantas.com.br/}{arthurdantas.com.br} \\[0.5em]
+    \faMapMarker \hspace{.5pt} Campo Grande, MS, Brasil
+\end{center}
+
+
+
+%----------- RESUMO -----------
+\section{Resumo}
+\begin{tabular}{p{0.97\textwidth}}
+    Engenheiro de Software Full Stack, apaixonado por desenvolver soluções inovadoras e colaborando com projetos que tenham impacto positivo na sociedade. Tenho a capacidade de aplicar conceitos de Engenharia de Software na indústria, indo além do desenvolvimento de software. Além disso, possuo experiência em trabalhar com diversos conceitos e técnicas aplicadas, para desenvolver aplicações escaláveis, eficientes e de alta qualidade. Bem como, conhecimento com diferentes tecnologias no desenvolvimento, como Next.js, React, TypeScript, Node.js, NestJS e Prisma.\medskip
+    
+    Interesse: \sotag{Engenharia de Software}; \sotag{Full Stack}; \sotag{Metodologia Ágil}; \sotag{Node.js};
+\end{tabular}
+
+
+
+%----------- ENSINO -----------
+\section{Formação Acadêmica}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+    \resumeEducationHeading
+      {Universidade Federal de Mato Grosso do Sul
+      }{Campo Grande - Mato Grosso do Sul, Brasil}
+      {Bacharelado em Engenharia de Software;   \textbf}{Mar 2024 \textbf{--} Dec 2028 (Previsão de Término)}
+    
+    \resumeEducationHeading
+        {Instituto Federal de Mato Grosso do Sul
+      }{Nova Andradina - Mato Grosso do Sul, Brasil}
+      {Ensino Médio Profissionalizante em Técnico em Informática;   \textbf}{Fev 2021 \textbf{--} Dec 2023}
+  \resumeSubHeadingListEnd
+
+
+
+%----------- SKILLS -----------
+\section{Habilidades}
+  \vspace{5pt}
+  \resumeSubHeadingListStart
+    \small{
+        \setlength{\itemsep}{0pt}
+        \item \textbf{Linguagens:} Python, JavaScript, TypeScript, SQL
+        \item \textbf{Tecnologias:} Node.js, React, Next.js, NestJS, PostgreSQL, Prisma, Git, Postman
+        \item \textbf{Metodologias:} Ágil, Scrum, OOP
+    }
+  \resumeSubHeadingListEnd
+
+
+
+%----------- EXPERIENCE -----------
+\section{Experiência}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Feira de Tecnologias, Engenharias e Ciências de Mato Grosso do Sul}{Campo Grande, Brasil}
+      {Engenheiro de Software}{Mar 2024 \textbf{--} Dez 2024}
+        \resumeItemListStart
+            \resumeItem{Atuei como Engenheiro de Software Full Stack, com ações na manutenção e no desenvolvimento de novas funcionalidades de um sistema próprio para a Feira de Tecnologias, Engenharias e Ciências de Mato Grosso do Sul. A referida é uma grande Feira de Ciências do Centro-Oeste Brasileiro. Por atingir um grande número de pessoas, é necessário automatizar tarefas e facilitar processos que exigem pouco tempo.}
+            \resumeItem{Com diversas fases, como Inscrição de Projetos, Avaliação Online, Fase de Ajustes, Avaliação Presencial e Emissão de Certificados. Dentro desse processo, existem diferentes roles e regras de negócio para Orientadores, Coorientadores, Avaliadores, Estudantes e Administradores.}
+            \resumeItem{Durante o desenvolvimento, foram aplicados conceitos da Engenharia de Software, utilizando metodologia ágil e outros princípios. A aplicação foi desenvolvida com base na Clean Architecture (Arquitetura Limpa) e emprega tecnologias como TypeScript, React, NestJS e Prisma.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Núcleo Interdisciplinar de Pesquisa, Estudo e Desenvolvimento em Tecnologia da Informação}{Nova Andradina, Brasil}
+      {Pesquisador}{Ago 2022 \textbf{--} Fev 2024}
+        \resumeItemListStart
+            \resumeItem{Com o apoio da Fundação de Apoio ao Desenvolvimento do Ensino, Ciência e Tecnologia do Estado de Mato Grosso do Sul, atuei como pesquisador no Núcleo Interdisciplinar de Pesquisa, Estudo e Desenvolvimento em Tecnologia da Informação.}
+            \resumeItem{Durante essa primeira e vasta experiência como pesquisador, estive envolvido em uma pesquisa direcionada à inovação e tecnologia, abordando a problemática do alto grau de abstração na modelagem de sistemas por meio de diagramas, especialmente os diagramas da UML. Essa característica dificulta a inclusão de pessoas com deficiência visual na Engenharia de Software, pois os leitores de tela não conseguem interpretar adequadamente essas ferramentas CASE, na modelagem de sistemas.}
+            \resumeItem{Diante dessa questão específica da Engenharia de Software, eu como pesquisador, além de me aprofundar em temas sobre a modelagem de sistemas, dediquei-me a resolver essa problemática, desenvolvendo um material didático que torna o processo menos abstrato e mais tangível, promovendo, assim, a inclusão.}
+        \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+
+%----------- PROJECTS -----------
+\section{Projetos}
+    \vspace{3pt}
+    \resumeSubHeadingListStart
+      
+      \resumeProjectHeading
+        {\textbf{ClientServer-RenatoRodas} $|$ \emph{\href{https://github.com/Arthur-SD15/ClientServer-RenatoRodas}{\color{blue}GitHub}}}{}
+          \resumeItemListStart
+            \resumeItem{O projeto desenvolvido consistiu na criação de uma aplicação web completa de e-commerce para o "Renato Rodas". Utilizando PostgreSQL, foram inseridos 20 produtos e implementados métodos para inserção, remoção e recuperação de itens. A interface foi construída com React.js, Next.js e estilizada com Tailwind. A comunicação entre cliente e servidor foi realizada via API Fetch, com Express e Sequelize para gerenciar as rotas e os métodos do banco de dados. }
+          \resumeItemListEnd
+      
+      \resumeProjectHeading
+        {\textbf{Autenticacao-RenatoRodas} $|$ \emph{\href{https://github.com/Arthur-SD15/Autenticacao-RenatoRodas}{\color{blue}GitHub}}}{}
+          \resumeItemListStart
+            \resumeItem{Este projeto implementa um sistema simulando um e-commerce para o "Renato Rodas" de autenticação de usuários, utilizando um servidor Express.js com JWT (JSON Web Token). O usuário precisa estar cadastrado no banco de dados, e a autenti cação ocorre com a verificação do nome de usuário e senha. Após a autenticação, o servidor gera um token. O sistema também permite registrar novos usuários e verificar se já estão cadastrados. As senhas são armazenadas de forma criptografada utilizando o módulo crypto.}
+          \resumeItemListEnd
+      
+    \resumeSubHeadingListEnd
+\end{document}
