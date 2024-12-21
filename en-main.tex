@@ -1,0 +1,200 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english,portuguese]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same} 
+\raggedbottom 
+\justifying 
+\setlength{\tabcolsep}{0in} 
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \parbox[t]{0.7\textwidth}{\textbf{#1}} & \textit{\small #4}\\
+      \textit{\small#3} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.17\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeEducationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+
+
+%----------- HEADER -----------
+\begin{center}
+    {\Huge \textbf{Arthur Silva Dantas}} \\[0.5em]
+    \small
+    \faEnvelope \hspace{.5pt} \href{mailto:contato.arthurdantas.dev@gmail.com}{contato.arthurdantas.dev@gmail.com} \hspace{0.8em}
+    \textbar \hspace{0.5em}
+    \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/arthur-sd15/}{Arthur Dantas} \hspace{0.8em}
+    \textbar \hspace{0.5em}
+    \faGithub \hspace{.5pt} \href{https://github.com/Arthur-SD15}{Arthur-SD15} \hspace{0.8em}
+    \textbar \hspace{0.5em}
+    \faGlobe \hspace{.5pt} \href{http://arthurdantas.com.br/}{arthurdantas.com.br} \\[0.5em]
+    \faMapMarker \hspace{.5pt} Campo Grande, MS, Brazil
+\end{center}
+
+
+
+%----------- SUMMARY -----------
+\section{Summary}
+\begin{tabular}{p{0.97\textwidth}}
+    Full Stack Software Engineer, passionate about developing innovative solutions and collaborating on projects that have a positive impact on society. I have the ability to apply Software Engineering concepts in the industry, going beyond software development. In addition, I have experience working with various applied concepts and techniques to develop scalable, efficient, and high-quality applications. As well as knowledge of different technologies in development, such as Next.js, React, TypeScript, Node.js, NestJS, and Prisma.\medskip
+
+    Interests: \sotag{Software Engineering}; \sotag{Full Stack}; \sotag{Agile Methodology}; \sotag{Node.js};
+\end{tabular}
+
+
+
+%----------- EDUCATION -----------
+\section{Education}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+    \resumeEducationHeading
+      {Federal University of Mato Grosso do Sul
+      }{Campo Grande - Mato Grosso do Sul, Brazil}
+      {Bachelor's Degree in Software Engineering;   \textbf}{Mar 2024 \textbf{--} Dec 2028 (Expected Graduation)}
+    
+    \resumeEducationHeading
+        {Federal Institute of Mato Grosso do Sul
+      }{Nova Andradina - Mato Grosso do Sul, Brazil}
+      {Vocational High School in Computer Technician;   \textbf}{Fev 2021 \textbf{--} Dec 2023}
+  \resumeSubHeadingListEnd
+
+
+
+%----------- SKILLS -----------
+\section{Skills}
+  \vspace{5pt}
+  \resumeSubHeadingListStart
+    \small{
+        \setlength{\itemsep}{0pt}
+        \item \textbf{Languages:} Python, JavaScript, TypeScript, SQL
+        \item \textbf{Technologies:} Node.js, React, Next.js, NestJS, PostgreSQL, Prisma, Git, Postman
+        \item \textbf{Methodologies:} Agile, Scrum, Kanban, OOP
+    }
+  \resumeSubHeadingListEnd
+
+
+
+%----------- EXPERIENCE -----------
+\section{Experience}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Technology, Engineering, and Science Fair of Mato Grosso do Sul}{Campo Grande, Brazil}
+      {Software Engineer}{Mar 2024 \textbf{--} Dez 2024}
+        \resumeItemListStart
+            \resumeItem{I worked as a Full Stack Software Engineer, focusing on maintaining and developing new features for an in-house system for the Technology, Engineering, and Science Fair of Mato Grosso do Sul. This is a major Science Fair in the Brazilian Midwest. Given the large number of attendees, automating tasks and streamlining processes that require minimal time is essential.}
+            \resumeItem{The system has various stages, such as Project Registration, Online Evaluation, Adjustment Phase, In-Person Evaluation, and Certificate Issuance. Within this process, there are different roles and business rules for Tutors, Co-tutors, Evaluators, Students, and Administrators.}
+            \resumeItem{During development, Software Engineering concepts were applied using an agile methodology and other principles. The application was developed based on Clean Architecture and employs technologies such as Node.js, TypeScript, React, NestJS, and Prisma.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Interdisciplinary Research, Study, and Development Center in Information Technology}{Nova Andradina, Brazil}
+      {Researcher}{Ago 2022 \textbf{--} Fev 2024}
+        \resumeItemListStart
+            \resumeItem{With support from the Foundation for the Advancement of Education, Science, and Technology of the State of Mato Grosso do Sul, I worked as a researcher at the Interdisciplinary Research, Study, and Development Center in Information Technology.}
+            \resumeItem{During this first extensive experience as a researcher, I was involved in a study focused on innovation and technology, addressing the issue of high levels of abstraction in system modeling through diagrams, particularly UML diagrams. This characteristic makes it difficult to include visually impaired individuals in Software Engineering, as screen readers cannot properly interpret these CASE tools in system modeling.}
+            \resumeItem{In light of this specific issue in Software Engineering, as a researcher, in addition to deepening my knowledge on system modeling, I dedicated myself to solving this problem by developing didatic materials that make the process less abstract and more tangible, thus promoting inclusion.}
+        \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+
+%----------- PROJECTS -----------
+\section{Projects}
+    \vspace{3pt}
+    \resumeSubHeadingListStart
+      
+      \resumeProjectHeading
+        {\textbf{ClientServer-RenatoRodas} $|$ \emph{\href{https://github.com/Arthur-SD15/ClientServer-RenatoRodas}{\color{blue}GitHub}}}{}
+          \resumeItemListStart
+            \resumeItem{The developed project consisted of creating a complete web e-commerce application for "Renato Rodas". Using PostgreSQL, 20 products were added, and methods were implemented for adding, removing, and retrieving items. The interface was built with React.js, Next.js, and styled with Tailwind. The communication between the client and the server was carried out via the API Fetch, with Express and Sequelize managing the routes and database methods.}
+          \resumeItemListEnd
+      
+      \resumeProjectHeading
+        {\textbf{Autenticacao-RenatoRodas} $|$ \emph{\href{https://github.com/Arthur-SD15/Autenticacao-RenatoRodas}{\color{blue}GitHub}}}{}
+          \resumeItemListStart
+            \resumeItem{This project implements a system simulating an e-commerce authentication system for "Renato Rodas", using an Express.js server with JWT (JSON Web Token). The user must be registered in the database, and authentication occurs by verifying the username and password. After authentication, the server generates a token. The system also allows registering new users and checking if they are already registered. Passwords are stored encrypted using the crypto module.}
+          \resumeItemListEnd
+      
+    \resumeSubHeadingListEnd
+
+\end{document}
